@@ -1,0 +1,24 @@
+{
+  "pluginAlias": "Smart-Window",
+  "pluginType": "accessory",
+  "singular": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "description": "Name for Windows",
+        "default": "Window"
+      },
+      "full_window_length": {
+        "title": "Full window length",
+        "type": "number",
+        "required": true,
+        "description": "Time in seconds till window closes",
+        "default": 60
+      }
+    }
+  }
+}

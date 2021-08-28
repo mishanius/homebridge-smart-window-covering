@@ -1,0 +1,1 @@
+# homebridge-smart-window-covering
